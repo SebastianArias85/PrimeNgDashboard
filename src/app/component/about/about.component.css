@@ -1,0 +1,26 @@
+.grado{
+    font-family: Arial,sans-serif;
+    color: rgb(0, 51, 128); 
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+.nombre{
+    font-family: Arial,sans-serif;
+    color: rgb(0, 51, 128); 
+    text-align: center;
+    font-size: 45px;
+    margin-top: -25px;
+}
+
+
+.iosfa{
+    font-family: Arial,sans-serif;
+    color: rgb(0, 51, 128); 
+    text-align: center;
+    font-size: 30px;
+    margin-top: -25px;
+}
+

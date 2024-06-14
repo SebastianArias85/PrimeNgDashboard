@@ -1,0 +1,50 @@
+<div class="card">
+
+  <p-menubar>
+
+    <!--LOGO-->
+    <ng-template pTemplate="start">
+      <div class="card flex justify-content-center">        
+        <p-button styleClass="p-button-rounded p-button-secondary" (click)="sidebarVisible = true" icon="pi pi-bars"></p-button>
+        <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="ml-2 mt-1" />
+        
+      </div>
+    </ng-template>
+    <!--FIN LOGO-->
+
+
+    <!--BOTON DEL USUARIO-->
+    <ng-template pTemplate="end">
+
+      <div class="card flex justify-content-center">
+        <p-menu #menu [model]="itemsM" [popup]="true"></p-menu>
+        <button pButton type="button" (click)="menu.toggle($event)" icon="pi pi-user" label="JGIANCASPRO"></button>
+      </div>
+
+    </ng-template>
+    <!--FIN BOTON DEL USUARIO-->
+
+  </p-menubar>
+
+</div>
+
+
+
+
+
+
+<div class="card flex justify-content-center">
+
+  <p-sidebar [(visible)]="sidebarVisible">
+
+    <h2>MENÚ</h2>
+
+    <div class="card flex justify-content-center">
+      <p-menu [model]="itemsO"></p-menu>
+    </div>
+
+  </p-sidebar>
+
+</div>
+
+<router-outlet></router-outlet>
