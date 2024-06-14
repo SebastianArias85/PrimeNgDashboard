@@ -18,3 +18,11 @@ Para realizar este README se utilizo la aplicacion online de "Readme.so"
 ```bash
   https://readme.so/es/editor
 ```
+Tambien se lo puede descargar de GITHUB a continuacion dejo video de la instalacion y descarga:
+
+```bash
+  https://www.youtube.com/watch?v=c87_4BoBcuY
+```
+```bash
+  github.com/opentok/opentok-node
+```
